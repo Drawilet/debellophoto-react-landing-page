@@ -1,14 +1,17 @@
 import Header from "./components/Header/Header";
+import Services from "./components/Sections/Services";
+import Testimonials from "./components/Sections/Testimonials";
+import WhyChooseUs from "./components/Sections/WhyChooseUs";
 
 function App() {
   return (
     <>
       <Header />
-      <section className="relative w-full h-screen">
+      <div className="relative w-full h-screen">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full z-10">
           <span className="text-5xl text-center block">DeBelloPhoto</span>
           <h1 className="text-xl text-center">
-            Creative Photography Studio in Mexico
+            Creative Photography Studio in Texas
           </h1>
         </div>
 
@@ -17,7 +20,11 @@ function App() {
           src="/img/jumbotron-2.jpg"
           alt="Jumbotron"
         />
-      </section>
+      </div>
+
+      <WhyChooseUs />
+      <Services />
+      <Testimonials />
     </>
   );
 }
