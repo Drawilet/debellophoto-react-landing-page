@@ -21,4 +21,8 @@
   section {
     @apply p-4;
   }
+
+  * {
+    @apply scroll-smooth;
+  }
 }
