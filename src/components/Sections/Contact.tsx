@@ -1,5 +1,5 @@
 export default () => (
-  <section className="my-4" id="contact">
+  <section className="my-4" id="contact-us">
     <div className="container mx-auto py-10">
       <h3 className="text-3xl font-semibold text-center mb-6">Contact Us</h3>
       {/* Contact Form */}
