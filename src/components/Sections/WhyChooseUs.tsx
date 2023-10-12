@@ -30,7 +30,7 @@ export default () => (
           <div
             className={`p-6 bg-white shadow-lg rounded-lg flex ${
               i % 2 == 0 ? "" : "flex-row-reverse"
-            }`}
+            } lg:flex-row`}
           >
             <div className="grid items-center mr-4">
               <i className={`${reason.icon} text-4xl`}></i>

@@ -1,4 +1,6 @@
+import Contact from "./components/Contact";
 import Header from "./components/Header/Header";
+import AboutUs from "./components/Sections/AboutUs";
 import Services from "./components/Sections/Services";
 import Testimonials from "./components/Sections/Testimonials";
 import WhyChooseUs from "./components/Sections/WhyChooseUs";
@@ -25,6 +27,8 @@ function App() {
       <WhyChooseUs />
       <Services />
       <Testimonials />
+      <Contact />
+      <AboutUs />
     </>
   );
 }
