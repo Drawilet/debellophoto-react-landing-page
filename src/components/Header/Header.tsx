@@ -30,7 +30,7 @@ const Header: Component = () => {
       } lg:flex lg:px-10 lg:py-2`}
     >
       <div className="flex items-center justify-between px-4">
-        <a href="/" className="text-black text-2xl block w-full text-center">
+        <a href="" className="text-black text-2xl block w-full text-center">
           DeBelloPhoto
         </a>
 

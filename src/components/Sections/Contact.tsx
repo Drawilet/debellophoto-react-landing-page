@@ -51,7 +51,7 @@ export default () => (
       </div>
       {/* Contact Information */}
       <div className="lg:w-2/4 lg:mx-auto">
-        <div className="bg-gray-100 p-6 rounded-lg">
+        <div className="bg-gray-50 p-6 rounded-lg">
           <h4 className="text-xl font-semibold mb-4">Contact Information</h4>
           <p className="text-gray-700 mb-2">
             Address: 123 Main Street, Texas, US
