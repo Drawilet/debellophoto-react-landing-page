@@ -1,9 +1,10 @@
-import Contact from "./components/Sections/Contact";
 import Header from "./components/Header/Header";
+import Contact from "./components/Sections/Contact";
 import AboutUs from "./components/Sections/AboutUs";
 import Services from "./components/Sections/Services";
 import Testimonials from "./components/Sections/Testimonials";
 import WhyChooseUs from "./components/Sections/WhyChooseUs";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,7 +15,10 @@ function App() {
           <span className="text-5xl">DeBelloPhoto</span>
           <h1 className="text-xl">Creative Photography Studio in Texas</h1>
 
-          <a href="#contact-us" className="bg-gray-950 hover:bg-black text-white px-4 py-2 rounded mt-3">
+          <a
+            href="#contact-us"
+            className="bg-gray-950 hover:bg-black text-white px-4 py-2 rounded mt-3"
+          >
             Contact us
           </a>
         </div>
@@ -33,6 +37,8 @@ function App() {
       <Testimonials />
       <Contact />
       <AboutUs />
+
+      <Footer />
     </>
   );
 }
