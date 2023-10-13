@@ -5,6 +5,7 @@ import Services from "./components/Sections/Services";
 import Testimonials from "./components/Sections/Testimonials";
 import WhyChooseUs from "./components/Sections/WhyChooseUs";
 import Footer from "./components/Footer/Footer";
+import Alert from "./components/Alert/Alert";
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
           draggable={false}
         />
       </div>
+
+      <Alert />
 
       <WhyChooseUs />
       <Services />
