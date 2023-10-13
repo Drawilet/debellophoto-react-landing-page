@@ -10,11 +10,13 @@ function App() {
     <>
       <Header />
       <div className="relative w-full h-screen">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full z-10">
-          <span className="text-5xl text-center block">DeBelloPhoto</span>
-          <h1 className="text-xl text-center">
-            Creative Photography Studio in Texas
-          </h1>
+        <div className="absolute h-full w-full z-10 flex flex-col items-center justify-center">
+          <span className="text-5xl">DeBelloPhoto</span>
+          <h1 className="text-xl">Creative Photography Studio in Texas</h1>
+
+          <a href="#contact-us" className="bg-gray-950 hover:bg-black text-white px-4 py-2 rounded mt-3">
+            Contact us
+          </a>
         </div>
 
         <img
