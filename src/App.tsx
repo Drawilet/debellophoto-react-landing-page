@@ -18,9 +18,11 @@ function App() {
         </div>
 
         <img
-          className="w-full h-full object-cover opacity-40 lg:opacity-75"
-          src="/img/jumbotron-2.jpg"
+          className="w-full h-full object-cover opacity-40 lg:opacity-60"
+          src="/img/jumbotron-2.webp"
           alt="Jumbotron"
+          title="Jumbotron"
+          draggable={false}
         />
       </div>
 

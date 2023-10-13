@@ -4,7 +4,7 @@ const testimonials = [
     role: "Client",
     content:
       "I had a fantastic experience with DeBelloPhoto. They captured every moment beautifully, and the photos exceeded my expectations.",
-    photo: "john-doe.jpg", 
+    photo: "john-doe.webp", 
     rating: 5, 
   },
   {
@@ -12,7 +12,7 @@ const testimonials = [
     role: "Client",
     content:
       "DeBelloPhoto made our wedding day even more special with their amazing photography skills. We cherish the memories they've captured.",
-    photo: "jane-smith.jpg", 
+    photo: "jane-smith.webp", 
     rating: 4, 
   },
   {
@@ -20,7 +20,7 @@ const testimonials = [
     role: "Client",
     content:
       "The team at DeBelloPhoto is incredibly talented. They made me feel comfortable during the photoshoot, and the results were stunning.",
-    photo: "michael-johnson.jpg", 
+    photo: "michael-johnson.webp", 
     rating: 5, 
   },
 ];
@@ -28,9 +28,9 @@ export default () => {
   return (
     <section className="" id="testimonials">
       <div className="container mx-auto py-10">
-        <h3 className="text-3xl font-semibold text-center mb-6">
+        <h2 className="text-3xl font-semibold text-center mb-6">
           Testimonials
-        </h3>
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="p-6 bg-white shadow-lg rounded-lg">
@@ -39,7 +39,9 @@ export default () => {
                 <img
                   src={`/img/testimonials/profile/${testimonial.photo}`}
                   alt={testimonial.name}
+                  title={testimonial.name}
                   className="w-16 h-16  rounded-full mx-auto"
+                  draggable={false}
                 />
               </div>
               {/* Content */}
@@ -61,7 +63,7 @@ export default () => {
                 ))}
               </div>
               <div className="mt-2">
-                <h4 className="text-lg font-semibold">{testimonial.name}</h4>
+                <h3 className="text-lg font-semibold">{testimonial.name}</h3>
                 <p className="text-gray-500">{testimonial.role}</p>
               </div>
             </div>

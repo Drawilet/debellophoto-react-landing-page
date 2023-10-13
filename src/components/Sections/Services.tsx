@@ -3,13 +3,13 @@ const services = [
     title: "Families",
     startingPrice: "150",
     description: ["30 min of coverage", "1 Location", "15 edited photos"],
-    image: "family.jpg",
+    image: "family.webp",
   },
   {
     title: "Newborns",
     startingPrice: "150",
     description: ["30-45 min of coverage", "15 edited photos"],
-    image: "newborn.jpg",
+    image: "newborn.webp",
   },
   {
     title: "Weddings",
@@ -19,7 +19,7 @@ const services = [
       "1 photographer",
       "Unlimited edited photos",
     ],
-    image: "wedding.jpg",
+    image: "wedding.webp",
   },
   {
     title: "Seniors",
@@ -30,7 +30,7 @@ const services = [
       "Unlimited outfits",
       "35 edited photos",
     ],
-    image: "senior.jpg",
+    image: "senior.webp",
   },
   {
     title: "Quinceañera",
@@ -40,19 +40,19 @@ const services = [
       "In-studio and on Location",
       "35 edited photos",
     ],
-    image: "quinceañera.jpg",
+    image: "quinceañera.webp",
   },
   {
     title: "Headshots",
     startingPrice: "75",
     description: ["30 Min of coverage", "In-Studio", "1 Edited image"],
-    image: "headshot.jpg",
+    image: "headshot.webp",
   },
   {
     title: "Maternity",
     startingPrice: "150",
     description: ["30 Minutes", "1 Location", "15 edited photos"],
-    image: "maternity.jpg",
+    image: "maternity.webp",
   },
   {
     title: "Boudoir",
@@ -64,7 +64,7 @@ const services = [
       "15 edited photos",
       "Password Protected Gallery",
     ],
-    image: "boudoir.jpg",
+    image: "boudoir.webp",
   },
   {
     title: "Cake Smash",
@@ -74,14 +74,14 @@ const services = [
       "1 Standard Set with Theme",
       "15 edited photos",
     ],
-    image: "cake-smash.jpg",
+    image: "cake-smash.webp",
   },
 ];
 
 export default () => (
   <section className="my-4" id="services">
     <div className="container mx-auto py-10">
-      <h3 className="text-3xl font-semibold text-center mb-6">Our Services</h3>
+      <h2 className="text-3xl font-semibold text-center mb-6">Our Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {services.map((service, index) => (
           <div
@@ -93,9 +93,9 @@ export default () => (
           >
             <div className="bg-black bg-opacity-40 rounded-lg absolute inset-0"></div>
 
-            <h4 className="text-2xl font-semibold text-white mb-2 relative z-10">
+            <h3 className="text-2xl font-semibold text-white mb-2 relative z-10">
               {service.title}
-            </h4>
+            </h3>
             <p className="text-lg font-bold text-white mb-2 relative z-10">
               Starting at ${service.startingPrice}
             </p>

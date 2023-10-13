@@ -1,7 +1,7 @@
 export default () => (
   <section className="my-4" id="contact-us">
     <div className="container mx-auto py-10">
-      <h3 className="text-3xl font-semibold text-center mb-6">Contact Us</h3>
+      <h2 className="text-3xl font-semibold text-center mb-6">Contact Us</h2>
       {/* Contact Form */}
       <div className="mb-4 lg:w-2/4 lg:mx-auto">
         <form>
@@ -52,7 +52,7 @@ export default () => (
       {/* Contact Information */}
       <div className="lg:w-2/4 lg:mx-auto">
         <div className="bg-gray-50 p-6 rounded-lg">
-          <h4 className="text-xl font-semibold mb-4">Contact Information</h4>
+          <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
           <p className="text-gray-700 mb-2">
             Address: 123 Main Street, Texas, US
           </p>
