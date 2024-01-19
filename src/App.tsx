@@ -7,6 +7,9 @@ import WhyChooseUs from "./components/Sections/WhyChooseUs";
 import Footer from "./components/Footer/Footer";
 import Alert from "./components/Alert/Alert";
 
+// @ts-ignore
+import Chat from "@tawk.to/tawk-messenger-react";
+
 function App() {
   return (
     <>
@@ -41,6 +44,7 @@ function App() {
       <Contact />
       <AboutUs />
 
+      <Chat propertyId="65aabbe30ff6374032c27add" widgetId="1hkhers9h" />
       <Footer />
     </>
   );
